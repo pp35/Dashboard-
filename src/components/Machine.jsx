@@ -117,7 +117,7 @@ const Machine = () => {
   };
 
   return (
-    <div className="bg-gray-800 ">
+    <div className="bg-gray-800 ml-1 mr-1 rounded  ">
       <div className="flex ">
         <h2 className="text-[14px] font-bold text-gray-300 mx-4">NIMBUS -09</h2>
         <h2 className="text-[14px] text-green-600 border border-green-600 rounded px-2 mx-20 mt-1 w-fit">
@@ -126,9 +126,9 @@ const Machine = () => {
       </div>
       <div className="flex my-6">
         <div className="flex w-full">
-          {/* Content Container */}
+      
           <div className="flex flex-col w-1/2 p-2 rounded-md space-y-4">
-            {/* First Section */}
+         
             {data.length > 0 && (
               <div className="flex flex-col space-y-4">
                 <div className="flex space-x-4">
@@ -166,7 +166,7 @@ const Machine = () => {
               </div>
             )}
 
-            {/* Second Section */}
+         
             {data.length > 1 && (
               <div className="flex flex-col space-y-4 mt-8">
                 <div className="flex space-x-4">
@@ -205,7 +205,7 @@ const Machine = () => {
             )}
           </div>
 
-          {/* Productivity Container */}
+     
           <div className="flex flex-col w-1/2 p-2 space-y-4">
             <div className="flex flex-col space-y-4">
               <div className="flex space-x-4 w-full">
@@ -256,7 +256,7 @@ const Machine = () => {
           </div>
         </div>
 
-        {/* Bullet Chart Section */}
+     
         <div className="w-full mt-2">
           <div className="h-32 w-full bg-gray-800 p-4  border border-gray-700">
             <Bar data={bulletData} options={bulletOptions} />
