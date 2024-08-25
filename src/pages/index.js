@@ -1,5 +1,5 @@
 import React from "react";
-import SideNavbar from "@/components/SideNavbar";
+import SideNavBar from "@/components/SideNavBar";
 import Header from "@/components/Header";
 import Productivity from "@/components/Productivity";
 import ProductivityGraph from "@/components/ProductivityGraph";
@@ -10,7 +10,7 @@ import Machine from "@/components/Machine";
 const Page = () => {
   return (
     <div className="bg-gray-900 min-h-screen flex">
-      <SideNavbar />
+      <SideNavBar />
 
       <div className="flex-1 flex flex-col ">
         <div className="flex justify-end ">

@@ -2,7 +2,7 @@
 import React from 'react';
 import { Home, Dashboard, Settings, Layers, BarChart, Build, PhotoLibrary } from '@mui/icons-material';
 
-const SideNavbar = () => {
+const SideNavBar = () => {
   return (
     <div className="bg-gray-800 h-screen w-14 flex flex-col justify-between items-center py-6">
       <div className="flex p-40 flex-col items-center">
@@ -28,4 +28,4 @@ const NavItem = ({ icon, color = "text-gray-400" }) => {  //
   );
 };
 
-export default SideNavbar;
+export default SideNavBar;
