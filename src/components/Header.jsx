@@ -16,10 +16,10 @@ const Header = () => {
       {stats.map((stat, index) => (
         <div key={index} className="relative bg-gray-800  rounded-lg">
           <HelpOutline className="absolute top-2 right-2 text-gray-400 cursor-pointer h-4 w-4" />
-          <div className="text-xl md:text-2xl font-extrabold m-2">{stat.value}</div>
+          <div className="text-xl md:text-2xl font-extrabold m-3">{stat.value}</div>
           <div className="flex items-center space-x-2">
             <div className="flex items-center">
-              <div className="text-gray-400 text-sm md:text-base">{stat.label}</div>
+              <div className="text-gray-400 m-1 text-sm md:text-base">{stat.label}</div>
               {stat.icon && <span className="ml-1">{stat.icon}</span>}
             </div>
             {stat.change && <div className={`text-sm md:text-base ${stat.changeColor}`}>{stat.change}</div>}
