@@ -9,7 +9,7 @@ import Machine from "@/components/Machine";
 
 const Page = () => {
   return (
-    <div className="bg-gray-900 min-h-screen flex">
+    <div className=" min-h-screen max-w-screen flex">
       <SideNavBar />
 
       <div className="flex-1 flex flex-col ">
